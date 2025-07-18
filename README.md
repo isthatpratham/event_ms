@@ -1,4 +1,4 @@
-# 🎉 College Event Management System
+# College Event Management System
 
 [![PHP](https://img.shields.io/badge/Backend-PHP-blue)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/Database-MySQL-orange)](https://www.mysql.com/)
