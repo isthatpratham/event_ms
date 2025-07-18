@@ -1,0 +1,14 @@
+.table-container {
+    overflow-x: auto; 
+    max-width: 100%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px; 
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}

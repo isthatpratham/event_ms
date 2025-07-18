@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.header {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+    background: #068D9D;
+    color: white;
+    text-align: center;
+}
+
+.nav-bar {
+    display: flex;
+    background: #80DED9;
+    padding: 10px;
+}
+
+.nav-bar button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-bar .active {
+    background: #444;
+    color: white;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.table-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 10px;
+}
+
+th {
+    background: #068D9D;
+    color: white;
+}
+
+.proceed-btn {
+    background: #068D9D;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.proceed-btn:hover {
+    background: #80DED9 ;
+}
+.burger-menu {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #80DED9;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
